@@ -11,7 +11,7 @@ def pytest_addoption(parser):
         "--browser", default="chrome", help="Browser to run tests"
     )
     parser.addoption(
-        "--drivers", default=os.path.expanduser("~/Downloads/drivers"), help="Browser to run tests"
+        "--drivers", default=os.path.expanduser("~/Downloads/drivers"), help="Drivers path"
     )
     parser.addoption(
         "--url", default="http://127.0.0.1:8081", help="Opencart base URL"
