@@ -8,4 +8,3 @@ class MainPage:
     CONTENT_DIV = (By.CSS_SELECTOR, "#content")
     PARTNERS_CAROUSEL = (By.CSS_SELECTOR, "#carousel0")
     EMPTY_SHOPPING_CARD_LABEL = (By.CSS_SELECTOR, "p.text-center")
-
