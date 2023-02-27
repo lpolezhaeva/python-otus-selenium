@@ -12,4 +12,3 @@ class ProductCardPage:
     THIRD_CHECKBOX = (By.CSS_SELECTOR, "input[type='checkbox'][value='10']")
     FORTH_CHECKBOX = (By.CSS_SELECTOR, "input[type='checkbox'][value='11']")
     TEXT_INPUT = (By.CSS_SELECTOR, "#input-option208")
-

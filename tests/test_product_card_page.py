@@ -13,4 +13,3 @@ def test_product_card_page(browser):
     browser.find_element(*ProductCardPage.THIRD_CHECKBOX)
     browser.find_element(*ProductCardPage.FORTH_CHECKBOX)
     browser.find_element(*ProductCardPage.TEXT_INPUT)
-

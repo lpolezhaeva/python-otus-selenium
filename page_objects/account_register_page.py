@@ -14,4 +14,3 @@ class AccountRegisterPage:
     SUBMIT_BUTTON = (By.CSS_SELECTOR, "input[type='submit']")
     PRIVACY_POLICY_CHECKBOX = (By.CSS_SELECTOR, "input[type='checkbox']")
     PRIVACY_POLICY_LINK = (By.CSS_SELECTOR, "a.agree")
-

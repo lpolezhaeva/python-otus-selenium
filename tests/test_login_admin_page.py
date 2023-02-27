@@ -9,4 +9,3 @@ def test_login_admin_page(browser):
     browser.find_element(*LoginAdminPage.SUBMIT_BUTTON)
     browser.find_element(*LoginAdminPage.FORGOTTEN_PASSWORD)
     browser.find_element(*LoginAdminPage.OPENCART_LINK)
-

@@ -25,4 +25,3 @@ def test_main_page(browser):
     WebDriverWait(browser, Config.SLOW).until(
         EC.text_to_be_present_in_element(MainPage.EMPTY_SHOPPING_CARD_LABEL, "Your shopping cart is empty!")
     )
-

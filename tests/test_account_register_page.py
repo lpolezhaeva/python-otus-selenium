@@ -15,5 +15,3 @@ def test_account_register_page(browser):
     browser.find_element(*AccountRegisterPage.SUBMIT_BUTTON)
     browser.find_element(*AccountRegisterPage.PRIVACY_POLICY_CHECKBOX)
     browser.find_element(*AccountRegisterPage.PRIVACY_POLICY_LINK)
-
-
