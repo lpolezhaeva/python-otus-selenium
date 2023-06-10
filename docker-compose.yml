@@ -24,7 +24,8 @@ services:
   opencart:
     image: docker.io/bitnami/opencart:3
     environment:
-      - OPENCART_HOST=${LOCAL_IP}:${OPENCART_PORT}
+#      - OPENCART_HOST=${LOCAL_IP}:${OPENCART_PORT}
+      - OPENCART_HOST=${IP_OPENCART}:${PORT_OPENCART}
       - OPENCART_DATABASE_HOST=mariadb
       - OPENCART_DATABASE_PORT_NUMBER=3306
       - OPENCART_DATABASE_USER=bn_opencart
