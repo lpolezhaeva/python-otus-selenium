@@ -21,7 +21,7 @@ ENV PATH $CHROMEDRIVER_DIR:$PATH
 
 WORKDIR /app
 
-COPY requirements.txt requirements.txt
+ADD requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 #RUN mkdir all
